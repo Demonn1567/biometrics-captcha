@@ -82,9 +82,9 @@ DATABASES = {
     # MySQL engine. Powered by the mysqlclient module.
     'ENGINE': 'django.db.backends.mysql',
     'NAME': 'biometrics',
-    'USER': 'root',
-    'PASSWORD': 'mysql',
-    'HOST': 'localhost',
+    'USER': 'admin',
+    'PASSWORD': 'Krish1234',
+    'HOST': 'database-1.cvmiaekc2c42.ap-southeast-2.rds.amazonaws.com',
     'PORT': '3306',
   }
 }
