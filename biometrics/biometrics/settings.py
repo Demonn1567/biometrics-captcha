@@ -81,7 +81,7 @@ DATABASES = {
     'default': {
     # MySQL engine. Powered by the mysqlclient module.
     'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'biometrics',
+    'NAME': 'database-1',
     'USER': 'admin',
     'PASSWORD': 'Krish1234',
     'HOST': 'database-1.cvmiaekc2c42.ap-southeast-2.rds.amazonaws.com',
