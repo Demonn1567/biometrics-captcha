@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-uv1o3ma1g9^s0!3)!um%)c(-x88p5@kg0)z8lko5lws-e96j*i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -79,14 +79,9 @@ WSGI_APPLICATION = 'biometrics.wsgi.application'
 
 DATABASES = {
     'default': {
-    # MySQL engine. Powered by the mysqlclient module.
-    'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'biometrics',
-    'USER': 'admin',
-    'PASSWORD': 'Krish1234',
-    'HOST': 'database-1.cvmiaekc2c42.ap-southeast-2.rds.amazonaws.com',
-    'PORT': '3306',
-  }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 
